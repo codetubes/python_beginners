@@ -12,11 +12,9 @@ def generate_password(theLength):
     return finalResult
 
 def main():
-
     while True:
         print("Enter the password length")
         theLength = input()
-
         try:
             theLength = int(theLength)
         except Exception as e:
